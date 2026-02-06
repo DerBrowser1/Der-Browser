@@ -1,30 +1,29 @@
 # Der-Browser
-Hi! This browser was made by AI! (Yeah, I'm lazy.) So, how to start it? Instructions:
-Check for Python:
+Hi! This browser was created by AI! (Yes, I'm lazy.) So, how do I launch it? Instructions: Check for Python:
 
-Press the WIN + R key combination, type cmd, and click OK to open the command prompt.
+Press the WIN +R key combination, type cmd and press OK to open the command prompt.
 
-In the opened window, enter the command:
+In the window that opens, enter the command:
 
-python --version
-or
-py --version
-If you see a version number (for example, Python 3.11.5), then Python is installed. Proceed to Step 2.
+python --version or py --version If you see the version number (for example, Python 3.11.5), it means Python is installed. Go to Step 2.
 
-If the message "python" is not an internal or external command appears, then Python is not installed or added to the PATH variable.
-Install Python (if necessary):
+If the message "python" appears, it is not an internal or external command..., it means that Python is not installed or added to the PATH variable. Install Python (if necessary):
 
-Download the latest version of Python from the official website.
-Attention! During the installation, be sure to check the box "Add Python to PATH" (Add Python to PATH). This is a critical step.
+Download the latest version of Python from the official website. Attention! During installation, make sure to check the box "Add Python to PATH". This is a critical step.
 
- Complete the installation and restart the command line (cmd). Re-run the command python --version.
-2. Installing the required libraries
-The browser requires the PyQt5 and PyQtWebEngine modules to work.
+Complete the installation and restart the command prompt (cmd). Run the check again with the python --version command. 2. Installing the necessary libraries The PyQt5 and PyQtWebEngine modules are required for the browser to work.
 
- Open the command line (WIN + R → cmd → OK).
-Enter the following command and press Enter:
+Open the command prompt (WIN + R → cmd → OK). Enter the following command and press Enter:
 
-pip install PyQt5 PyQtWebEngine
+pip install PyQt5 PyQtWebEngine 
+Note for users with multiple versions of Python: If the pip command did not work or is linked to another version, use: pip3 install PyQt5 PyQtWebEngine or explicitly specify Python: 
+python -m pip install PyQt5 PyQtWebEngine 
+Wait until all components are downloaded and installed. The process may take several minutes.
+
+Launching the browser, find the FastStart.bat file in the browser folder.
+Launch it with a double click. Wait a few seconds to open the main browser window.
+
+!A reminder! Do not close the command prompt window (the black FastStart.bat window) that appears after startup! It controls the operation of the browser. Closing this window will immediately shut down the browser. To close the browser correctly, use the standard x in its main window.
 
 For Russian people:
 Привет! Этот браузер был создан компанией AI! (Да, я ленив.) Итак, как его запустить? Инструкции:
