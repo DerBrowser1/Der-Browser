@@ -1,5 +1,5 @@
 # Der-Browser
-Hi! This browser was made by AI! So, how to start it? Instructions:
+Hi! This browser was made by AI! (Yeah, I'm lazy.) So, how to start it? Instructions:
 Check for Python:
 
 Press the WIN + R key combination, type cmd, and click OK to open the command prompt.
@@ -27,7 +27,7 @@ Enter the following command and press Enter:
 pip install PyQt5 PyQtWebEngine
 
 For Russian people:
-Привет! Этот браузер был создан компанией AI! Итак, как его запустить? Инструкции:
+Привет! Этот браузер был создан компанией AI! (Да, я ленив.) Итак, как его запустить? Инструкции:
 Проверьте наличие Python:
 
 Нажмите комбинацию клавиш WIN + R, введите cmd и нажмите OK, чтобы открыть командную строку.
